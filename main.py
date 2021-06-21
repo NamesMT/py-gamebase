@@ -33,7 +33,7 @@ class SFX:
 	pass
 
 
-pygame.mixer.music.load('audio/music.mp3')
+pygame.mixer.music.load(path + 'audio/music.mp3')
 pygame.mixer.music.set_volume(0.1)
 pygame.mixer.music.play(-1, 0.0, 5000)
 
